@@ -23,14 +23,16 @@ body{
 a{
     text-decoration: none;
     font-weight: 600;
+    color: black;
 }
 
 .button{
     padding: 8px 20px;
     color: white;
-    background-color: rgb(35, 95, 207);
+    background-color: rgb(19, 98, 226);
     border: none;
     cursor: pointer;
+    font-size: 16px;
 }
 
 .container{
@@ -40,4 +42,13 @@ a{
 
 p{
     font-weight: 600;
+}
+
+.bg-lightblue{
+    background-color: rgb(140, 185, 221);
+}
+
+#plane .radio-button{
+    margin-right: 20px;
+    display: inline-block;
 }
