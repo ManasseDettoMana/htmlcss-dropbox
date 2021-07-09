@@ -57,9 +57,9 @@ p{
 
 /* rettangolo piano tariffario  */
 .piano-tariffario{
-    width: 330px;
+    width: 350px;
     height: 1200px;
-    margin-right: 70px;
+    margin-right: 100px;
     border: 1px solid rgb(207, 207, 207);
     margin-top: 35px;
 }
