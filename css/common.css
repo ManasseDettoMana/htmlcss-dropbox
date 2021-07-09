@@ -24,3 +24,11 @@ a{
     text-decoration: none;
     font-weight: 600;
 }
+
+.button{
+    padding: 8px 20px;
+    color: white;
+    background-color: rgb(35, 95, 207);
+    border: none;
+    cursor: pointer;
+}

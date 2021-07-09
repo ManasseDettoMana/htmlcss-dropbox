@@ -11,6 +11,7 @@ header li:hover{
     border-bottom: 2px solid lightskyblue;
 }
 
+/* centratura verticale  */
 header li,
 header img{
     line-height: 70px;
@@ -21,12 +22,19 @@ header img{
     vertical-align: baseline;
 }
 
-
 header a{
     color: black;
     vertical-align: baseline;
 }
 
+/* padding contenuto header  */
 .header-left-content{
     padding-left: 20px;
+}
+.header-right-content{
+    padding-right: 20px;
+}
+/* bottone nell'header  */
+header button{
+    margin: 0 20px 0 40px;
 }
