@@ -88,7 +88,6 @@ header button{
     height: 1000px;
 }
 
-
 #plane h2{
     margin-top: 250px;
     margin-bottom: 50px;
@@ -96,3 +95,12 @@ header button{
     font-size: 50px;
 }
 
+/* bottoni del plane  */
+#plane input{
+    margin-right: 5px;
+}
+#plane .radio-button{
+    margin-right: 20px;
+    display: inline-block;
+}
+/*  */
