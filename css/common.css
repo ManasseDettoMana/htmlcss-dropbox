@@ -25,7 +25,8 @@ a:not(.piano-tariffario .container a){
     font-weight: 600;
     color: black;
 }
-.piano-tariffario .container a{
+.piano-tariffario .container a,
+.fa-check{
     color:#0061ff ; 
 }
 
@@ -57,9 +58,8 @@ p{
 /* rettangolo piano tariffario  */
 .piano-tariffario{
     width: 330px;
-    height: 1000px;
-    /* margin-right: 100px; */
-    /* DA VEDERE DOPO  */
+    height: 1200px;
+    margin-right: 70px;
     border: 1px solid rgb(207, 207, 207);
     margin-top: 35px;
 }
@@ -103,4 +103,9 @@ p{
 .piano-tariffario .container .button{
     margin-top: 50px;
 }
+
+ul{
+    list-style-type: none;
+}
+
 
