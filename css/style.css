@@ -104,3 +104,7 @@ header button{
     display: inline-block;
 }
 /*  */
+
+.fa-arrow-down:active{
+    color: #0061ff ;
+}
