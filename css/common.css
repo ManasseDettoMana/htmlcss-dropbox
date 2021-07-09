@@ -32,3 +32,12 @@ a{
     border: none;
     cursor: pointer;
 }
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+p{
+    font-weight: 600;
+}
