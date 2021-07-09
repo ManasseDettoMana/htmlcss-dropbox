@@ -20,10 +20,13 @@ body{
     float: right;
 }
 
-a{
+a:not(.piano-tariffario .container a){
     text-decoration: none;
     font-weight: 600;
     color: black;
+}
+.piano-tariffario .container a{
+    color:#0061ff ; 
 }
 
 .button{
@@ -41,9 +44,8 @@ a{
     margin: 0 auto;
 }
 
-p,
-span{
-    font-weight: 600;
+p{
+    font-weight: 400;
 }
 
 /* background lightblue  */
@@ -54,13 +56,37 @@ span{
 
 /* rettangolo piano tariffario  */
 .piano-tariffario{
-    width: 300px;
+    width: 330px;
     height: 1000px;
     /* margin-right: 100px; */
     /* DA VEDERE DOPO  */
     border: 1px solid rgb(207, 207, 207);
-    margin-top: 30px;
+    margin-top: 35px;
 }
+
+.piano-tariffario .container *{
+    margin-top: 20px;
+}
+
+.piano-tariffario h3{
+    font-weight: 700;
+    font-size: 25px;
+}
+.piano-tariffario h4{
+    font-weight: 800;
+}
+.piano-tariffario .container p:first-of-type{
+    color: grey;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: block;
+}
+
+.piano-tariffario .container hr{
+    width: 20%;
+    margin-bottom: 40px;
+}
+
 
 .piano-name{
     width: 100%;
@@ -73,3 +99,8 @@ span{
 .piano-name>.fa-user{
     font-size: 18px;
 }
+
+.piano-tariffario .container .button{
+    margin-top: 50px;
+}
+
