@@ -7,6 +7,7 @@ header li{
     display: inline-block;
     margin-left:45px;
     height: 60px;
+    vertical-align: middle;
 }
 header li:hover{
     border-bottom: 2px solid lightskyblue;
@@ -19,12 +20,13 @@ header img{
 }
 
 header img{
-    height: 22px;
-    vertical-align: baseline;
+    /* height: 22px; */
+    vertical-align: middle;
+    margin-top: 5px;
 }
 
 header a{
-    vertical-align: baseline;
+    vertical-align: super;
 }
 
 /* padding contenuto header  */
@@ -108,3 +110,4 @@ header button{
 .fa-arrow-down:active{
     color: #0061ff ;
 }
+
