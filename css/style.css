@@ -138,13 +138,42 @@ header button{
     padding: 10px 70px;
 }
 
+#promotion{
+    margin-top: 150px;
+    position: relative;
+}
+
+#promotion,
 #immagine-partner{
-    width: 700px;
-    height: 600px;
+    height: 550px;
+}
+
+#promotion-text{
+    width: 600px;
+    position: absolute;
+    top: 50px;
+}
+
+#promotion p{
+    margin-top: 20px;
+}
+
+#immagine-partner{
+    width: 600px;
     background-image:url(../img/partner.png) ;
     background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 60px;
 }
-#immagine-partner img{
-    width: 100%;
-    height: 100%;
+
+#immagine-partner,
+#promotion-text{
+    display: inline-block;
+}
+
+#promotion-button{
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
 }
