@@ -57,16 +57,21 @@ p{
     width: 70%;
     margin: 0 auto;
 }
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
 
 /* rettangolo piano tariffario  */
 .piano-tariffario{
-    width: calc((100% - 75px) / 3);
+    width: calc((100% - 50px) / 3);
     height: 1200px;
     border: 1px solid rgb(207, 207, 207);
     margin-top: 35px;
 }
 
-margine destro delle prime due colonne
+/* margine destro delle prime due colonne  */
 .margin-r{
     margin-right: 25px;
 }

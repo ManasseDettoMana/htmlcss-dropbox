@@ -124,7 +124,7 @@ header button{
 }
 
 .plane-foot-content h4{
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .plane-foot-content h3,
@@ -136,4 +136,15 @@ header button{
 .plane-foot-content .button{
     margin-right: 30px;
     padding: 10px 70px;
+}
+
+#immagine-partner{
+    width: 700px;
+    height: 600px;
+    background-image:url(../img/partner.png) ;
+    background-size: contain;
+}
+#immagine-partner img{
+    width: 100%;
+    height: 100%;
 }
