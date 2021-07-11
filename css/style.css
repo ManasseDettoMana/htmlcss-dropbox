@@ -90,8 +90,6 @@ header button{
     height: 1000px;
 }
 
-
-
 #plane h2{
     margin-top: 250px;
     margin-bottom: 50px;
@@ -113,6 +111,29 @@ header button{
     color: #0061ff ;
 }
 
-#ue{
-    margin-left: 25px;
+
+.plane-foot-content{
+    height: 230px;
+}
+
+.plane-foot-content h3,
+.plane-foot-content p,
+.plane-foot-content .button{
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.plane-foot-content h4{
+    margin-top: 15px;
+}
+
+.plane-foot-content h3,
+.plane-foot-content p,
+.plane-foot-content h4{
+    margin-left: 30px;
+}
+
+.plane-foot-content .button{
+    margin-right: 30px;
+    padding: 10px 70px;
 }
