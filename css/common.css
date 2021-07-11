@@ -9,7 +9,6 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-
 /* float left */
 .fl{
     float: left;
@@ -54,15 +53,24 @@ p{
     background-color: rgb(140, 185, 221);
 }
 
+.small-container{
+    width: 70%;
+    margin: 0 auto;
+}
 
 /* rettangolo piano tariffario  */
 .piano-tariffario{
-    width: 350px;
+    width: calc((100% - 75px) / 3);
     height: 1200px;
-    margin-right: 100px;
     border: 1px solid rgb(207, 207, 207);
     margin-top: 35px;
 }
+
+margine destro delle prime due colonne
+.margin-r{
+    margin-right: 25px;
+}
+
 
 .piano-tariffario .container *{
     margin-top: 20px;
