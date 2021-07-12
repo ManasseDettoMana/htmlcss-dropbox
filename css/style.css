@@ -200,43 +200,52 @@ header button{
     transform: scale(0.5);
 }
 
-
 .side-column{
     width: 30%;
 }
 
-
-.box:nth-of-type(1){
+/* bg-color left-side column box  */
+#designit{
     background-color: rgb(124, 192, 103);
-    
-
 }
-
-.box:nth-of-type(2){
+#arizona{
     background-color: #4e0000;
 }
-.box:nth-of-type(1) img,
-.box:nth-of-type(2) img,
-.box:nth-of-type(3) img,
-.box:nth-of-type(4) img{
-    filter: invert(1);
-
-}
-.box:nth-of-type(3){
+#florida{
     background-color: rgb(25, 110, 207);
 }
-.box:nth-of-type(4){
+#topps{
     background-color: rgb(224, 0, 0);
 }
 
-.box>img{
+/* bg-color right-side column box  */
+#bicycle{
+    background-color: rgb(184, 1, 1);
+}
+#hearst{
+    background-color: rgb(159, 192, 209);
+}
+#lonely{
+    background-color: rgb(0, 0, 128);
+}
+#channel{
+    background-color: gold;
+}
+
+
+
+.box img{
+    filter: invert(1);
     width: 100%;
     height: 100%;   
 }
 
 #middle-column{
     width: 40%;
+    height: 500px;
     padding: 50px 30px;
+    background-color: rgb(240, 240, 240)
+
 }
 
 #middle-column hr{
