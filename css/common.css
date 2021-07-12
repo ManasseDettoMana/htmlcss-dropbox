@@ -95,7 +95,8 @@ p{
     display: block;
 }
 
-.piano-tariffario .container hr{
+.piano-tariffario .container hr,
+#middle-column hr{
     width: 20%;
     margin-bottom: 40px;
 }

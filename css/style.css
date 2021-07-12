@@ -194,8 +194,7 @@ header button{
 
 .box{
     width: 50%;
-    height: 300px;
-    float: left;
+    height: 250px;
 }
 .box img{
     transform: scale(0.5);
@@ -215,7 +214,6 @@ header button{
 
 .box:nth-of-type(2){
     background-color: #4e0000;
-    /* filter: invert(7%) sepia(72%) saturate(4843%) hue-rotate(6deg) brightness(85%) contrast(112%); */
 }
 .box:nth-of-type(1) img,
 .box:nth-of-type(2) img,
@@ -231,9 +229,19 @@ header button{
     background-color: rgb(224, 0, 0);
 }
 
-
-
 .box>img{
     width: 100%;
     height: 100%;   
+}
+
+#middle-column{
+    width: 40%;
+    padding: 50px 30px;
+}
+
+#middle-column hr{
+    margin-top: 40px;
+}
+#middle-column p{
+    margin: 50px 0;W
 }
