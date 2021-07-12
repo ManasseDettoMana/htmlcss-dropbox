@@ -65,7 +65,7 @@ p{
 
 /* rettangolo piano tariffario  */
 .piano-tariffario{
-    width: calc((100% - 50px) / 3);
+    width: calc((100% - 120px) / 3);
     height: 1200px;
     border: 1px solid rgb(207, 207, 207);
     margin-top: 35px;
@@ -73,7 +73,7 @@ p{
 
 /* margine destro delle prime due colonne  */
 .margin-r{
-    margin-right: 25px;
+    margin-right: 60px;
 }
 
 
@@ -133,3 +133,25 @@ input[type=radio] {
     transform: scale(1.5);
     border: 0;
 }
+
+.operations-img{    
+    height: 250px;
+    width: 100%;
+    
+}
+
+.operations-img img{
+    width: 80%;
+    height: 100%; 
+    text-align: center;
+
+}
+.row{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+ .operation{
+    width: calc((100% - 120px) / 3);
+    display: inline-block;   
+} 

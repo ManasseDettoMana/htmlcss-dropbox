@@ -176,4 +176,9 @@ header button{
     background-color: white;
     padding: 10px 20px;
     margin-top: 20px;
+    cursor: pointer;
+}
+
+.operations-text span{
+    text-decoration: underline;
 }
