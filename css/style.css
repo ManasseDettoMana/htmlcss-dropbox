@@ -187,11 +187,27 @@ header button{
     width: 100%;
 }
 
+#affiliazioni{
+    margin-top: 200px;
+}
+#affiliazioni-top{
+    margin-bottom: 100px;
+}
+#affiliazioni-top h2{
+    font-weight: 700;
+    font-size: 2.5em;
+    margin-bottom: 50px;
+}
+
+#affiliazioni-bottom{
+    height: 300px;
+    width: 100%;
+}
+
 #affiliazioni-a{
     text-decoration: underline;
     color: #0061ff;
 }
-
 .box{
     width: 50%;
     height: 250px;
@@ -243,7 +259,7 @@ header button{
 #middle-column{
     width: 40%;
     height: 500px;
-    padding: 50px 30px;
+    padding: 50px;
     background-color: rgb(240, 240, 240)
 
 }
@@ -253,4 +269,36 @@ header button{
 }
 #middle-column p{
     margin: 50px 0;
+}
+
+#affiliazioni-bottom .small-container div{
+    width: 500px;
+}
+
+#affiliazioni-bottom h2{
+    color: rgb(95, 17, 17);
+}
+
+#affiliazioni-bottom button{
+    background-color: white;
+    padding: 10px 50px;
+    border:1px solid white;
+    font-size: 1em;
+}
+#faq h3{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#faq h4{
+    display: inline-block;
+}
+
+#faq h4,
+#faq i{
+    line-height: 100px;
+}
+
+#faq div{
+    height: 100px;
 }
