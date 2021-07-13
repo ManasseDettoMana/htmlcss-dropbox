@@ -90,13 +90,10 @@ header button{
     height: 1000px;
 }
 
-#plane h2{
-    margin-top: 250px;
-    margin-bottom: 50px;
-    font-weight: 700;
-    font-size: 50px;
+.piano-name span{
+    font-weight: 600;
+    font-size: 18px
 }
-
 /* bottoni del plane  */
 #plane input{
     margin-right: 5px;
@@ -106,6 +103,16 @@ header button{
     display: inline-block;
 }
 /*  */
+
+#plane h2,
+#vantaggi h2{
+    margin-top: 250px; 
+    margin-bottom: 50px;
+}
+
+#affiliazioni-top h2{
+    width: 600px;
+}
 
 .fa-arrow-down:active{
     color: #0061ff ;
@@ -299,6 +306,7 @@ header button{
     top: 50%;
     right: 0;
     transform: translate(0, -50%);
+    cursor: pointer;
 
 }
 
@@ -356,6 +364,7 @@ footer a:hover{
 
 footer i{
     color: grey;
+    font-weight: 300;
 
 }
 
@@ -363,4 +372,8 @@ footer hr{
     width: 10%;
     margin-top: 100px;
     margin-bottom: 50px;
+}
+footer span{
+    color: grey;
+    font-size: 15px;
 }
